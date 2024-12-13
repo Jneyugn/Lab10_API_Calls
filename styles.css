@@ -1,0 +1,35 @@
+/* Basic Styles for Buttons and Sections */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #b14ab1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #301252;
+}
+
+.fetch-section, .xhr-section {
+    margin-bottom: 20px;
+}
+
+#fetchData, #xhrData {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -3,32 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>API Calls with Fetch</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script defer="js/script.js"></script>
 </head>
 <body>
-    <button id="fetchData">Fetch Data with Fetch()</button>
-    <button id="XHRData">Fetch Data with XHR</button>
-    <table id="outputTable">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Min Size</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div class="fetch-section">
+        <button id="fetchButton">Fetch Post 1 (fetch())</button>
+        <div id="fetchData">
+            <h2>Post Data (fetch)</h2>
+            <p id="fetchTitle"></p>
+            <p id="fetchBody"></p>
+        </div>
+    </div>
+
+    <div class="xhr-section">
+        <button id="xhrButton">Fetch Post 2 (XMLHttpRequest)</button>
+        <div id="xhrData">
+            <h2>Post Data (XHR)</h2>
+            <p id="xhrTitle"></p>
+            <p id="xhrBody"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
